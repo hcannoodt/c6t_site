@@ -93,6 +93,90 @@ nav a:hover {
     max-width: 800px;
 }
 
+/* Numeronym Diagram */
+.numeronym-diagram {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    border: 2px solid var(--secondary-color);
+    max-width: 400px;
+    font-family: 'Courier New', monospace;
+}
+
+.diagram-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.letter-start,
+.letter-end {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    padding: 0 0.5rem;
+}
+
+.letter-middle {
+    color: #7f8c8d;
+    margin: 0 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.diagram-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.arrow-start,
+.arrow-end {
+    width: 3rem;
+    text-align: center;
+}
+
+.arrow-middle {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
+.diagram-result {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.result-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: var(--section-bg);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+}
+
+/* Word Examples */
+.word-example {
+    white-space: nowrap;
+}
+
+.word-example .letter-start,
+.word-example .letter-end {
+    padding: 0;
+    font-size: inherit;
+}
+
+.word-example .letter-middle {
+    margin: 0;
+    letter-spacing: normal;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
