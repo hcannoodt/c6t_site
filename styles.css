@@ -199,4 +199,73 @@ footer {
     .section h2 {
         font-size: 2rem;
     }
+
+    /* Numeronym Diagram Mobile */
+    .numeronym-diagram {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .diagram-line {
+        font-size: 1.2rem;
+    }
+
+    .letter-start,
+    .letter-end {
+        font-size: 1.5rem;
+        padding: 0 0.25rem;
+    }
+
+    .letter-middle {
+        margin: 0 0.25rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .arrow-start,
+    .arrow-end {
+        width: 2rem;
+    }
+
+    .arrow-middle {
+        font-size: 0.8rem;
+        padding: 0 0.25rem;
+    }
+
+    .result-text {
+        font-size: 2rem;
+        padding: 0.4rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Tighter spacing for very small screens */
+    .diagram-line {
+        font-size: 1rem;
+    }
+
+    .letter-start,
+    .letter-end {
+        font-size: 1.3rem;
+        padding: 0 0.15rem;
+    }
+
+    .letter-middle {
+        margin: 0 0.15rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .arrow-start,
+    .arrow-end {
+        width: 1.5rem;
+    }
+
+    .arrow-middle {
+        font-size: 0.7rem;
+        padding: 0 0.15rem;
+    }
+
+    .result-text {
+        font-size: 1.6rem;
+        padding: 0.3rem 0.8rem;
+    }
 }
