@@ -78,6 +78,10 @@ nav a:hover {
     align-items: center;
 }
 
+.section .container {
+    width: 100%;
+}
+
 .section:nth-child(even) {
     background-color: var(--section-bg);
 }
@@ -183,6 +187,25 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem 0;
+}
+
+/* Social Section */
+.social-no {
+    margin-top: 2rem;
+}
+
+.social-no ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-no li {
+    margin: 0.5rem 0;
+}
+
+.social-no del {
+    text-decoration-color: red;
+    color: var(--text-color);
 }
 
 /* Responsive */
